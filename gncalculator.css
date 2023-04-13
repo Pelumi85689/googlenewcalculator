@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.big {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.display-screens{
+    border: 1px solid rgb(32,33,36);
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.display-screens:hover{
+    background-color: rgb(66, 68, 73);
+}
+
+.display-screens:focus-within{
+    border: 1px solid blue;
+}
+
+
+.screen1,
+.screen2 {
+    text-align: right;
+    outline: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen1{
+    margin-bottom: -10px;
+}
+
+.screen1 input,
+.screen2 input {
+    text-align: right;
+    flex: 1;
+    outline: none;
+    font-size: 50px;
+    box-shadow: none;
+}
+
+.screen1 input{
+    font-size: 20px;
+}
+
+input,
+button{
+    font-size: 25px;
+    width: 80px;
+    height: 40px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.082), 5px 5px 15px rgba(0, 0, 0, 0.123);
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.g{
+    background-color: gainsboro;
+    color: black;
+    font-size: small;
+}
+
+.g:hover{
+    background-color: whitesmoke;
+}
+
+.g2{
+    background-color: white;
+    color: black;
+    font-size: small;
+}
+
+.g2:hover{
+    background-color: whitesmoke;
+}
+
+.g3{
+    background-color: rgb(58, 58, 243);
+    color: black;
+    font-size: small;
+}
+
+.g3:hover{
+    background-color: whitesmoke;
+}
